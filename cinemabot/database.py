@@ -1,7 +1,7 @@
 import typing as tp
 import sqlite3
 
-con = sqlite3.connect("./dbs.db")
+con = sqlite3.connect("./cinemabot/dbs.db")
 cur = con.cursor()
 
 async def insert(user_name: str, message_text: str, res_kinopoisk_id: int, film_name: str) -> None:
