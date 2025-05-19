@@ -1,0 +1,13 @@
+[project]
+name = "cinemabot"
+version = "1.0.0"
+description = "(Not Written)"
+
+dependencies = [
+    "aiogram",
+    "sqlite3",
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >= 3.2"]
