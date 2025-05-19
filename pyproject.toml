@@ -5,7 +5,6 @@ description = "(Not Written)"
 
 dependencies = [
     "aiogram",
-    "sqlite3",
 ]
 
 [build-system]
