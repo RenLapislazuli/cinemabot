@@ -5,6 +5,8 @@ description = "(Not Written)"
 
 dependencies = [
     "aiogram",
+    "uwsgi",
+    "flask",
 ]
 
 [build-system]
